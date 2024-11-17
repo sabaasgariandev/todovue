@@ -1,24 +1,10 @@
-# todo-app
+# todovue 
+To-Do-List With Vue Js & Veutify & Axios (CRUD)
+- [Demo Project](https://todovue-pearl.vercel.app/)
 
-## Project setup
-```
-yarn install
-```
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+- Developed by Saba Asgarian
 
-### Compiles and minifies for production
-```
-yarn build
-```
+- Created - 2024-11-17
 
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- Technologies Used - Axios(CRUD) , Vue js , Vuetify
