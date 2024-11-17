@@ -1,26 +1,30 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <v-app class="break-text wholeBg">
+    <v-container>
+      <TaskList  />
+    </v-container>
+  </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TaskList from './components/TaskList.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
-}
+    TaskList,
+  },
+};
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+.break-text {
+  word-break: break-all; /* Break words at any character */
+  white-space: normal;   /* Allow text to wrap normally */
 }
+.wholeBg{
+  background: rgb(177,235,254);
+background: linear-gradient(234deg, rgba(177,235,254,1) 33%, rgba(168,233,254,1) 63%, rgba(254,254,254,1) 92%);
+}
+
 </style>
